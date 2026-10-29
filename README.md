@@ -18,8 +18,10 @@ expression and drug response data.
 .
 ├── README.md
 ├── .gitignore
-├── data/        # input files go here (not included, see data/README.md)
 └── notebooks/
+   ├── ex1_sequence_analysis_orfs_alignment.ipynb
+   ├── ex2_hmm_viterbi_profile_hmm.ipynb
+   └── ex3_drug_response_and_differential_expression.ipynb
 ```
 
 ## Requirements
@@ -28,12 +30,6 @@ R with the [IRkernel](https://irkernel.github.io/) and these packages:
 
 - CRAN: `ape`, `HMM`, `aphid`, `igraph`, `PRROC`, `randomForest`, `ggplot2`, `BiocManager`
 - Bioconductor: `Biostrings`, `ORFik`, `pwalign`, `msa`, `limma`, `piano`
-
-## Running
-
-1. Put the course data in `data/` (see [`data/README.md`](data/README.md)).
-2. Start Jupyter and open a notebook from inside `notebooks/`, so the relative paths
-   (`../data/...`) resolve.
 
 Notes:
 - Exercise 1's first cell reinstalls packages on every run (`force=TRUE`); after the first run you can skip it.
