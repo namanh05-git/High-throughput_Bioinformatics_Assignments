@@ -15,12 +15,6 @@ notebooks, place these 9 files in the folders below (names exactly as shown).
 | `gene_expression.csv` | `ex3/` | CSV (cell lines × genes) | Exercise 3: PCA, differential expression |
 | `cell_line_metadata.csv` | `ex3/` | CSV (tissue type, TP53 status) | Exercise 3: PCA coloring, design matrix |
 
-```
-data/
-├── ex1/
-├── ex2/
-└── ex3/
-```
 
 ## Not files
 
